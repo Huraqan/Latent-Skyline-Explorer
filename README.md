@@ -35,5 +35,5 @@ Python 3.12.1+, Kivy or Gradio, Numpy, TensorFlow, Tensorflow Probabilities, Pil
 This project is licensed under the MIT License. See the LICENSE file for details
 
 ## Sources
-https://www.tensorflow.org/tutorials/generative/cvae?hl=en
-https://distill.pub/2016/deconv-checkerboard/
+- https://www.tensorflow.org/tutorials/generative/cvae?hl=en
+- https://distill.pub/2016/deconv-checkerboard/
