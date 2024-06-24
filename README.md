@@ -32,8 +32,14 @@ To train a model on your own images, just replace the content of the `photos` fo
 Python 3.12.1+, Kivy or Gradio, Numpy, TensorFlow, Tensorflow Probabilities, Pillow, Matplotlib
 
 ## License
+
 This project is licensed under the MIT License. See the LICENSE file for details
 
+## Acknowledgements
+
+The Conv-VAE model is based on TensorFlow.
+
 ## Sources
+
 - https://www.tensorflow.org/tutorials/generative/cvae?hl=en
 - https://distill.pub/2016/deconv-checkerboard/
