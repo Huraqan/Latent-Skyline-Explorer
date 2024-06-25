@@ -9,7 +9,7 @@ The app has two possible interfaces functioning either as a web server with Grad
 
 Gradio                              | Kivy
 :----------------------------------:|:--------------------------------:
-![gradio ui](assets\gradio_ui.png)  | ![kivy ui](assets\kivy_ui.png)
+![gradio ui](assets\gradio_ui.jpg)  | ![kivy ui](assets\kivy_ui.jpg)
 
 ## Features
 
