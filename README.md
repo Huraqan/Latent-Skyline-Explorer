@@ -1,7 +1,11 @@
 # Latent Skyline Explorer
 ![python version](https://img.shields.io/badge/python-v3.12.1-green?logo=python) ![build version](https://img.shields.io/badge/build-v0.1-blue)
 
-Latent Skyline Explorer is an artistic Gen-AI proof of concept that allows users to interact with a Convolutional Variational Autoencoder (Conv-VAE) model. Users can manipulate the latent space of the Conv-VAE to generate and visualize different images based on the model's training. The provided pre-trained model uses classic deconvolution, which unfortunately produces a lot of visual artifacts. You can train a model using an upsampling & convolution approach in the decoder, which creates less artifacts but it is notoriously blurrier. A technique called PixelShuffle is supposed to be much better, but I have not managed to get it to work. The app has two possible interfaces functioning either locally with Kivy or as a web server with Gradio.
+Latent Skyline Explorer is an artistic Gen-AI proof of concept that allows users to interact with a Convolutional Variational Autoencoder (Conv-VAE) model. Users can manipulate the latent space of the Conv-VAE to generate and visualize different images based on the model's training.
+
+The provided pre-trained model uses classic deconvolution, which unfortunately produces a lot of visual artifacts. You can train a model using an upsampling & convolution approach in the decoder, which creates less artifacts but it is notoriously blurrier. A technique called PixelShuffle is supposed to be much better, but I have not managed to get it to work.
+
+The app has two possible interfaces functioning either locally with Kivy or as a web server with Gradio.
 
 ## Features
 
