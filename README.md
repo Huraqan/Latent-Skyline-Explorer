@@ -5,7 +5,11 @@ Latent Skyline Explorer is an artistic Gen-AI proof of concept that allows users
 
 The provided pre-trained model uses classic deconvolution, which unfortunately produces a lot of visual artifacts. You can train a model using an upsampling & convolution approach in the decoder, which creates less artifacts but it is notoriously blurrier. A technique called PixelShuffle is supposed to be much better, but I have not managed to get it to work.
 
-The app has two possible interfaces functioning either locally with Kivy or as a web server with Gradio.
+The app has two possible interfaces functioning either as a web server with Gradio or locally with Kivy.
+
+Gradio                              | Kivy
+:----------------------------------:|:--------------------------------:
+![gradio ui](assets\gradio_ui.png)  | ![kivy ui](assets\kivy_ui.png)
 
 ## Features
 
@@ -17,7 +21,6 @@ The app has two possible interfaces functioning either locally with Kivy or as a
 1. Clone the repository:
     ```bash
     git clone https://github.com/Huraqan/Latent-Skyline-Explorer.git
-    cd SkylineApp
     ```
 
 2. Install the required dependencies:
