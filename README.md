@@ -7,9 +7,7 @@ The provided pre-trained model uses classic deconvolution, which unfortunately p
 
 The app has two possible interfaces functioning either as a web server with Gradio or locally with Kivy.
 
-Gradio                              | Kivy
-:----------------------------------:|:--------------------------------:
-![gradio ui](assets\gradio_ui.jpg)  | ![kivy ui](assets\kivy_ui.jpg)
+![gradio ui](assets\ui_gradio_kivy.jpg)
 
 ## Features
 
