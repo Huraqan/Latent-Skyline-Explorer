@@ -1,7 +1,7 @@
 # Latent Skyline Explorer
 ![python version](https://img.shields.io/badge/python-v3.12.1-green?logo=python) ![build version](https://img.shields.io/badge/build-v0.1-blue)
 
-Latent Skyline Explorer is a Gen-AI app with a graphical interface built using Kivy (or Gradio) that allows users to interact with a Convolutional Variational Autoencoder (Conv-VAE) model. Users can manipulate the latent space of the Conv-VAE to generate and visualize different images based on the model's training. The provided pre-trained model uses classic deconvolution, which produces a lot of visual artifacts. You can train a model using an upsampling & convolution approach in the decoder, which creates less artifacts but it is notoriously blurrier. A technique called PixelShuffle is supposed to be much better, but I have not managed to get it to work.
+Latent Skyline Explorer is an artistic Gen-AI proof of concept that allows users to interact with a Convolutional Variational Autoencoder (Conv-VAE) model. Users can manipulate the latent space of the Conv-VAE to generate and visualize different images based on the model's training. The provided pre-trained model uses classic deconvolution, which unfortunately produces a lot of visual artifacts. You can train a model using an upsampling & convolution approach in the decoder, which creates less artifacts but it is notoriously blurrier. A technique called PixelShuffle is supposed to be much better, but I have not managed to get it to work. The app has two possible interfaces functioning either locally with Kivy or as a web server with Gradio.
 
 ## Features
 
@@ -23,13 +23,18 @@ Latent Skyline Explorer is a Gen-AI app with a graphical interface built using K
 
 ## Usage
 
+#### Inference:
 Run inference on the trained model with the GUI application by either using the Gradio interface `python gui_gradio.py` or by using Kivy `python gui_kivy.py`. The latter has more complete functionality with preset loading.
 
+#### Training:
 To train a model on your own images, just replace the content of the `photos` folder with your own and go through the `VAE-Training.ipynb` notebook.
+
+#### Tips:
+- For a better workflow, when modifying the Gradio interface you can run the script with `gradio gui_gradio.py` intead. This will allow for automatic reloading of the demo when saving the script.
 
 ## Requirements
 
-Python 3.12.1+, Kivy or Gradio, Numpy, TensorFlow, Tensorflow Probabilities, Pillow, Matplotlib
+Python 3.12.1+, Kivy, Gradio, Numpy, TensorFlow, Tensorflow Probabilities, Pillow, Matplotlib
 
 ## License
 
